@@ -1,0 +1,4 @@
+"clubs"	49
+"diamonds"	59
+"hearts"	52
+"spades"	40
