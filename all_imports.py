@@ -2,8 +2,16 @@
 from bayes_opt import BayesianOptimization
 from bs4 import BeautifulSoup
 from catboost import CatBoostClassifier
+from fastai.vision.all import *
 from lightgbm import LGBMClassifier
 from prophet import Prophet
+from pyspark import SQLContext
+from pyspark.ml import Pipeline
+from pyspark.ml.classification import LogisticRegression, RandomForestClassifier
+from pyspark.ml.evaluation import BinaryClassificationEvaluator, MulticlassClassificationEvaluator
+from pyspark.ml.feature import StringIndexer, OneHotEncoder, VectorAssembler
+from pyspark.sql import SparkSession
+from pyspark.sql.types import StructType, StructField, IntegerType, DoubleType, StringType
 from scipy.cluster.hierarchy import dendrogram, linkage
 from scipy.cluster.hierarchy import linkage, dendrogram, fcluster
 from sklearn.cluster import KMeans
