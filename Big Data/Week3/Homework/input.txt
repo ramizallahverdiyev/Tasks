@@ -1,0 +1,1 @@
+"Hadoop is an open source framework. Hadoop supports big data processing."

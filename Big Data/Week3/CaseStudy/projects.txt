@@ -1,0 +1,6 @@
+male    5
+female  8
+female  3
+male    10
+female  6
+male    2

@@ -1,0 +1,6 @@
+Ali     23      Baku
+Aysel   30      Ganja
+Murad   45      Baku
+Leyla   25      Sumgait
+Farid   37      Ganja
+Zahra   20      Sumgait
